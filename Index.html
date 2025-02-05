@@ -121,40 +121,7 @@
     </div>
   </nav>
 
-  <!-- Carousel Section -->
-  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="7a878f6ea64739c8cf7deb894d33cb95.jpg" class="d-block w-75 " alt="Flood Image 1">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Stay Safe During Floods</h5>
-          <p>We are here to help you in times of need.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="b1c317b50ad985075a430babb81fb335 (1).jpg" class="d-block w-75 " alt="Flood Image 2">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Emergency Assistance</h5>
-          <p>Get immediate help and support.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="f7ea749bba408531394377cb5a0bc469.jpg" class="d-block w-75 " alt="Flood Image 3">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Community Support</h5>
-          <p>Together, we can overcome any disaster.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+
 
   <!-- Hero Section -->
   <section class="hero-section bg-light py-5 text-center">
@@ -264,55 +231,56 @@
     </div>
   </section>
   
+  <style>
+    .square-box {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .square-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
+  
   <!-- Alerts Section -->
-  <section id="alerts" class="section">
-    <div class="container">
-      <h2 class="text-center mb-4">Alerts</h2>
-      <form id="alertForm">
-        <div class="mb-3">
-          <label for="alertLocation" class="form-label">Location</label>
-          <select class="form-select" id="alertLocation" required>
-            <option value="" disabled selected>Select your district</option>
-            <option value="Chennai">Chennai</option>
-            <option value="Coimbatore">Coimbatore</option>
-            <option value="Madurai">Madurai</option>
-            <option value="Tiruchirappalli">Tiruchirappalli</option>
-            <option value="Salem">Salem</option>
-            <option value="Tiruppur">Tiruppur</option>
-            <option value="Erode">Erode</option>
-            <option value="Dindigul">Dindigul</option>
-            <option value="Kanyakumari">Kanyakumari</option>
-            <option value="Theni">Theni</option>
-            <option value="Virudhunagar">Virudhunagar</option>
-            <option value="Nilgiris">Nilgiris</option>
-            <option value="Karur">Karur</option>
-            <option value="Namakkal">Namakkal</option>
-            <option value="Pudukkottai">Pudukkottai</option>
-            <option value="Ramanathapuram">Ramanathapuram</option>
-            <option value="Sivagangai">Sivagangai</option>
-            <option value="Tirunelveli">Tirunelveli</option>
-            <option value="Thoothukudi">Thoothukudi</option>
-            <option value="Kanchipuram">Kanchipuram</option>
-            <option value="Vellore">Vellore</option>
-            <option value="Ranipet">Ranipet</option>
-            <option value="Tirupattur">Tirupattur</option>
-            <option value="Dharmapuri">Dharmapuri</option>
-            <option value="Krishnagiri">Krishnagiri</option>
-            <option value="Ariyalur">Ariyalur</option>
-            <option value="Perambalur">Perambalur</option>
-            <option value="Nagapattinam">Nagapattinam</option>
-            <option value="Thiruvarur">Thiruvarur</option>
-            <option value="Kanyakumari">Kanyakumari</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label for="alertMessage" class="form-label">Alert Message</label>
-          <textarea class="form-control" id="alertMessage" rows="3" placeholder="Describe the alert" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit Alert</button>
-      </form>
+<section id="alerts" class="section">
+  <div class="container">
+    <h2 class="text-center mb-4">Breaking News</h2>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>⚠️ Heavy Rainfall Alert:</strong> IMD issues red alert for Tamil Nadu and Kerala due to continuous heavy rains.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>🌊 River Water Levels Rising:</strong> Authorities monitor rising water levels in Cauvery, Krishna, and Godavari rivers.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>🚨 Evacuation Notices:</strong> Low-lying areas in Chennai, Coimbatore, and Madurai issued evacuation warnings.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>🛑 Road Closures:</strong> Key highways and bridges affected due to flooding; alternative routes suggested.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>🏥 Emergency Medical Camps:</strong> Health camps set up in affected districts to provide medical aid.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>🚁 Rescue Operations:</strong> NDRF and local teams deployed for rescue missions in critical zones.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>💡 Power Outage Updates:</strong> Electricity board working on restoring power in flood-hit areas.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>🍞 Relief Distribution:</strong> Food, water, and essentials being distributed at relief camps.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>📢 Volunteer Help Needed:</strong> NGOs call for volunteers to assist in rescue and relief work.
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <strong>📡 Communication Lines Open:</strong> Temporary helplines set up for emergency assistance and missing persons reports.
+      </a>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Request Help Section -->
   <section id="request-help" class="section">
@@ -403,18 +371,6 @@
       <p>Email: <a href="mailto:support@floodhelpline.com">support@floodhelpline.com</a></p>
       <p>Phone: +91-9876543210</p>
       <p>Address: Coimbatore, Tamil Nadu</p>
-      <form id="contactForm" class="mt-4">
-        <div class="mb-3">
-          <input type="text" class="form-control" id="contact-name" placeholder="Enter your name" required>
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" id="contact-email" placeholder="Enter your email" required>
-        </div>
-        <div class="mb-3">
-          <textarea class="form-control" id="contact-message" rows="3" placeholder="Enter your message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-light">Send Message</button>
-      </form>
     </div>
   </section>
 
