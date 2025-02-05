@@ -11,6 +11,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
   <style>
+<<<<<<< HEAD
     /* General Styles */
     body {
       font-family: Arial, sans-serif;
@@ -70,6 +71,33 @@
       padding: 20px;
       margin: 10px 0;
       background-color: #e9f5e9; /* Light green background */
+=======
+    /* Remove background color for carousel control buttons */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: transparent !important; /* Remove default background */
+      border: none; /* Remove border if any */
+    }
+
+    /* Remove background color for carousel indicators */
+    .carousel-indicators li {
+      background-color: transparent !important; /* Make the indicators transparent */
+    }
+
+    /* Optional: Change the indicator color if desired */
+    .carousel-indicators .active {
+      background-color: #007bff !important; /* Change active indicator color */
+    }
+
+    /* Remove green color from carousel and footer */
+    footer {
+      background-color: #343a40; /* Dark background for the footer */
+      color: white;
+    }
+
+    .carousel-item {
+      background-color: white; /* Remove background color for carousel items */
+>>>>>>> ab988066e8b524a4ace00e2bcf120ec8f9d60bc8
     }
   </style>
 </head>
@@ -88,11 +116,17 @@
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#alerts">Alerts</a></li>
+<<<<<<< HEAD
+=======
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+>>>>>>> ab988066e8b524a4ace00e2bcf120ec8f9d60bc8
         </ul>
       </div>
     </div>
   </nav>
 
+<<<<<<< HEAD
   <!-- Carousel Section -->
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -128,6 +162,8 @@
     </button>
   </div>
 
+=======
+>>>>>>> ab988066e8b524a4ace00e2bcf120ec8f9d60bc8
   <!-- Hero Section -->
   <section class="hero-section bg-light py-5 text-center">
     <div class="container">
@@ -138,7 +174,11 @@
   </section>
 
   <!-- About Section -->
+<<<<<<< HEAD
   <section id="about" class="section">
+=======
+  <section id="about" class="py-5 bg-light">
+>>>>>>> ab988066e8b524a4ace00e2bcf120ec8f9d60bc8
     <div class="container">
       <h2 class="text-center mb-4">About Us</h2>
       <p class="text-center">
@@ -155,8 +195,12 @@
           </ul>
         </div>
         <div class="col-md-6">
+<<<<<<< HEAD
         </div>
       </div>
+=======
+    
+>>>>>>> ab988066e8b524a4ace00e2bcf120ec8f9d60bc8
     </div>
   </section>
 
@@ -265,6 +309,98 @@
     </div>
   </section>
 
+<<<<<<< HEAD
   <!-- Footer Section -->
   <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2025 Flood Disaster Helpline. All rights reserved
+=======
+  <!-- Testimonials Section with Carousel -->
+  <section id="testimonials" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">What People Say</h2>
+      <!-- Testimonial Carousel -->
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="text-center">"This helpline saved my family during the floods. The response was immediate!"</p>
+            <footer class="text-center">Ravi Kumar, Coimbatore</footer>
+          </div>
+          <div class="carousel-item">
+            <p class="text-center">"Great service! Help arrived within minutes of requesting assistance."</p>
+            <footer class="text-center">Meena Sharma, Tiruppur</footer>
+          </div>
+          <div class="carousel-item">
+            <p class="text-center">"I was able to connect to emergency services quickly thanks to the helpline. Thank you!"</p>
+            <footer class="text-center">Anil Reddy, Madurai</footer>
+          </div>
+          <div class="carousel-item">
+            <p class="text-center">"The support team was outstanding. They ensured I was safe and in touch with authorities."</p>
+            <footer class="text-center">Pranav Nair, Kanyakumari</footer>
+          </div>
+          <div class="carousel-item">
+            <p class="text-center">"Fantastic service! The team guided me through the evacuation process seamlessly."</p>
+            <footer class="text-center">Suresh G, Virudhunagar</footer>
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 text-center">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:support@floodhelpline.com">support@floodhelpline.com</a></p>
+      <p>Phone: +91-9876543210</p>
+      <p>Address: Coimbatore, Tamil Nadu</p>
+      <form id="contactForm" class="mt-4">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="contact-name" placeholder="Enter your name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="contact-email" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="contact-message" rows="3" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-light">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Flood Disaster Helpline. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // Handle form submissions for "Request Help"
+    document.getElementById('helpRequestForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('✅ Thank you for your request! Our team will contact you shortly.');
+      this.reset();
+    });
+
+    // Handle form submissions for "Contact Us"
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('📩 Your message has been sent! We will get back to you soon.');
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
+>>>>>>> ab988066e8b524a4ace00e2bcf120ec8f9d60bc8
