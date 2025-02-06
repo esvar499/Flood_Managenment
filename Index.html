@@ -10,94 +10,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* General Styles */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f4f8; /* Light background for the body */
-    }
-
-    /* Navbar Styles */
-    .navbar {
-      background-color: #007bff; /* Primary color for navbar */
-    }
-
-    /* Button Styles */
-    .btn-primary {
-      background-color: #28a745; /* Green button color */
-      border-color: #28a745; /* Green border color */
-    }
-
-    .btn-primary:hover {
-      background-color: #218838; /* Darker green on hover */
-      border-color: #1e7e34; /* Darker border on hover */
-    }
-
-    .btn-light {
-      background-color: #f8f9fa; /* Light button background */
-      color: #212529; /* Dark text color */
-    }
-
-    .btn-light:hover {
-      background-color: #e2e6ea; /* Darker shade on hover */
-    }
-
-    /* Section Styles */
-    .section {
-      padding: 40px 0;
-      background-color: #ffffff; /* White background for sections */
-      border-radius: 8px; /* Rounded corners */
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-      margin-bottom: 20px; /* Space between sections */
-    }
-
-    /* Footer Styles */
-    footer {
-      background-color: #343a40; /* Dark background for the footer */
-      color: #f8f9fa; /* Light text color */
-    }
-
-    /* Carousel Item Styles */
-    .carousel-item img {
-      object-fit: cover; /* Ensures the image covers the entire area */
-      height: 60vh; /* Adjust height as needed */
-    }
-
-    /* Square Box for Services and Alerts */
-    .square-box {
-      border: 2px solid #28a745; /* Green border */
-      border-radius: 8px; /* Rounded corners */
-      padding: 20px;
-      margin: 10px 0;
-      background-color: #e9f5e9; /* Light green background */
-    /* Remove background color for carousel control buttons */
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      background-color: transparent !important; /* Remove default background */
-      border: none; /* Remove border if any */
-    }
-
-    /* Remove background color for carousel indicators */
-    .carousel-indicators li {
-      background-color: transparent !important; /* Make the indicators transparent */
-    }
-
-    /* Optional: Change the indicator color if desired */
-    .carousel-indicators .active {
-      background-color: #007bff !important; /* Change active indicator color */
-    }
-
-    /* Remove green color from carousel and footer */
-    footer {
-      background-color: #343a40; /* Dark background for the footer */
-      color: white;
-    }
-
-    .carousel-item {
-      background-color: white; /* Remove background color for carousel items */
-
-    }
-  </style>
+  <!-- Animate.css for Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
 
@@ -111,50 +25,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#alerts">Alerts</a></li>
           <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-
         </ul>
       </div>
     </div>
   </nav>
-
-  <!-- Carousel Section -->
-  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="7a878f6ea64739c8cf7deb894d33cb95.jpg" class="d-block w-100 h-50" alt="Flood Image 1">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Stay Safe During Floods</h5>
-          <p>We are here to help you in times of need.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="b1c317b50ad985075a430babb81fb335 (1).jpg" class="d-block w-100" alt="Flood Image 2">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Emergency Assistance</h5>
-          <p>Get immediate help and support.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="f7ea749bba408531394377cb5a0bc469.jpg" class="d-block w-100" alt="Flood Image 3">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Community Support</h5>
-          <p>Together, we can overcome any disaster.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
   <!-- Hero Section -->
   <section class="hero-section bg-light py-5 text-center">
@@ -165,41 +42,13 @@
     </div>
   </section>
 
-  <!-- About Section -->
-
-  <section id="about" class="section">
-
-  <section id="about" class="py-5 bg-light">
-
-    <div class="container">
-      <h2 class="text-center mb-4">About Us</h2>
-      <p class="text-center">
-        Flooding is one of the most devastating natural disasters, often leaving affected communities in dire need of support. 
-        The <strong>Flood Disaster Helpline System</strong> provides a platform for affected individuals to quickly access critical information and request help. Our mission is to streamline communication between victims and disaster management agencies, improving response times and saving lives.
-      </p>
-      <div class="row">
-        <div class="col-md-6">
-          <ul class="list-unstyled">
-            <li><i class="fas fa-bolt text-success"></i> <strong>Quick Response:</strong> Connects victims with emergency teams in real-time.</li>
-            <li><i class="fas fa-map-marker-alt text-success"></i> <strong>Location-Based Help:</strong> Request aid based on your area.</li>
-            <li><i class="fas fa-phone-alt text-success"></i> <strong>24/7 Support:</strong> Immediate assistance for those in crisis.</li>
-            <li><i class="fas fa-hand-holding-heart text-success"></i> <strong>Community Support:</strong> Encourages volunteers to participate.</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="services" class="section">
+  <!-- Services Section -->
+  <section id="services" class="section py-5">
     <div class="container">
       <h2 class="text-center mb-4">Our Services</h2>
       <div class="row">
-        <div class="col-md-4">
-          <div class="square-box">
+        <div class="col-md-4 mb-4">
+          <div class="square-box p-3 border rounded shadow-sm">
             <h5>Emergency Assistance</h5>
             <ul>
               <li>Request immediate rescue and relief support.</li>
@@ -208,8 +57,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="square-box">
+        <div class="col-md-4 mb-4">
+          <div class="square-box p-3 border rounded shadow-sm">
             <h5>Disaster Reporting</h5>
             <ul>
               <li>Report flood incidents with location details.</li>
@@ -218,8 +67,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="square-box">
+        <div class="col-md-4 mb-4">
+          <div class="square-box p-3 border rounded shadow-sm">
             <h5>Relief and Shelters</h5>
             <ul>
               <li>Find nearby safe shelters.</li>
@@ -229,9 +78,9 @@
           </div>
         </div>
       </div>
-      <div class="row mt-3">
-        <div class="col-md-4">
-          <div class="square-box">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="square-box p-3 border rounded shadow-sm">
             <h5>Real-Time Alerts</h5>
             <ul>
               <li>Receive weather and flood warnings.</li>
@@ -240,8 +89,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="square-box">
+        <div class="col-md-4 mb-4">
+          <div class="square-box p-3 border rounded shadow-sm">
             <h5>Volunteer Coordination</h5>
             <ul>
               <li>Connect volunteers with relief teams.</li>
@@ -250,8 +99,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="square-box">
+        <div class="col-md-4 mb-4">
+          <div class="square-box p-3 border rounded shadow-sm">
             <h5>Communication Support</h5>
             <ul>
               <li>Enable direct contact with emergency services.</li>
@@ -263,158 +112,180 @@
       </div>
     </div>
   </section>
-  
-  <!-- Alerts Section -->
-  <section id="alerts" class="section">
-    <div class="container">
-      <h2 class="text-center mb-4">Alerts</h2>
-      <form id="alertForm">
-        <div class="mb-3">
-          <label for="alertLocation" class="form-label">Location</label>
-          <select class="form-select" id="alertLocation" required>
-            <option value="" disabled selected>Select your district</option>
-            <option value="Chennai">Chennai</option>
-            <option value="Coimbatore">Coimbatore</option>
-            <option value="Madurai">Madurai</option>
-            <option value="Tiruchirappalli">Tiruchirappalli</option>
-            <option value="Salem">Salem</option>
-            <option value="Tiruppur">Tiruppur</option>
-            <option value="Erode">Erode</option>
-            <option value="Dindigul">Dindigul</option>
-            <option value="Kanyakumari">Kanyakumari</option>
-            <option value="Theni">Theni</option>
-            <option value="Virudhunagar">Virudhunagar</option>
-            <option value="Nilgiris">Nilgiris</option>
-            <option value="Karur">Karur</option>
-            <option value="Namakkal">Namakkal</option>
-            <option value="Pudukkottai">Pudukkottai</option>
-            <option value="Ramanathapuram">Ramanathapuram</option>
-            <option value="Sivagangai">Sivagangai</option>
-            <option value="Tirunelveli">Tirunelveli</option>
-            <option value="Thoothukudi">Thoothukudi</option>
-            <option value="Kanchipuram">Kanchipuram</option>
-            <option value="Vellore">Vellore</option>
-            <option value="Ranipet">Ranipet</option>
-            <option value="Tirupattur">Tirupattur</option>
-            <option value="Dharmapuri">Dharmapuri</option>
-            <option value="Krishnagiri">Krishnagiri</option>
-            <option value="Ariyalur">Ariyalur</option>
-            <option value="Perambalur">Perambalur</option>
-            <option value="Nagapattinam">Nagapattinam</option>
-            <option value="Thiruvarur">Thiruvarur</option>
-            <option value="Kanyakumari">Kanyakumari</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label for="alertMessage" class="form-label">Alert Message</label>
-          <textarea class="form-control" id="alertMessage" rows="3" placeholder="Describe the alert" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit Alert</button>
-      </form>
-    </div>
-  </section>
 
   <!-- Request Help Section -->
-  <section id="request-help" class="section">
+  <section id="request-help" class="section py-5">
     <div class="container">
       <h2 class="text-center mb-4">Request Help</h2>
-      <form id="helpRequestForm">
-        <div class="mb-3">
-          <label for="name" class="form-label">Full Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-        </div>
-        <div class="mb-3">
-          <label for="phone" class="form-label">Phone Number</label>
-          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
-        </div>
-        <div class="mb-3">
+      <div class="frame-box">
+        <form id="helpRequestForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="mb-3">
             <label for="location" class="form-label">Location</label>
             <select class="form-select" id="location" required>
               <option value="" disabled selected>Select your location</option>
+              <!-- List of all Tamil Nadu districts -->
+              <option value="Chennai">Chennai</option>
               <option value="Coimbatore">Coimbatore</option>
               <option value="Tiruppur">Tiruppur</option>
               <option value="Erode">Erode</option>
-              <option value="Nilgiris">Nilgiris</option>
-              <option value="Karur">Karur</option>
-              <option value="Dindigul">Dindigul</option>
               <option value="Madurai">Madurai</option>
+              <option value="Trichy">Trichy</option>
+              <option value="Salem">Salem</option>
+              <option value="Tirunelveli">Tirunelveli</option>
+              <option value="Dindigul">Dindigul</option>
               <option value="Theni">Theni</option>
+              <option value="Vellore">Vellore</option>
+              <option value="Namakkal">Namakkal</option>
+              <option value="Karur">Karur</option>
+              <option value="Nagercoil">Nagercoil</option>
+              <option value="Cuddalore">Cuddalore</option>
+              <option value="Pudukkottai">Pudukkottai</option>
+              <option value="Villupuram">Villupuram</option>
+              <option value="Kanchipuram">Kanchipuram</option>
+              <option value="Tiruvannamalai">Tiruvannamalai</option>
+              <option value="Ramanathapuram">Ramanathapuram</option>
+              <option value="Virudhunagar">Virudhunagar</option>
+              <option value="Nagapattinam">Nagapattinam</option>
+              <option value="Thanjavur">Thanjavur</option>
+              <option value="Kanyakumari">Kanyakumari</option>
+              <option value="Krishnagiri">Krishnagiri</option>
+              <option value="Tirupur">Tirupur</option>
+              <option value="Sivaganga">Sivaganga</option>
+              <option value="Ariyalur">Ariyalur</option>
+              <option value="Chengalpattu">Chengalpattu</option>
+              <option value="Tiruvarur">Tiruvarur</option>
+              <option value="Dharmapuri">Dharmapuri</option>
+              <option value="Thoothukudi">Thoothukudi</option>
+              <option value="Kallakurichi">Kallakurichi</option>
+              <option value="Tenkasi">Tenkasi</option>
+              <option value="Perambalur">Perambalur</option>
+              <option value="Puducherry">Puducherry</option>
             </select>
           </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" rows="3" placeholder="Describe your situation" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit Request</button>
-      </form>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Describe your situation" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+        </form>
+      </div>
     </div>
   </section>
+  <!-- Breaking News Alerts Section -->
+  <div class="container py-3">
+    <!-- Alert 1: Flash Floods in Chennai -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: Flash Floods in Chennai 🚨</strong>
+      <p>Flash floods have caused severe waterlogging in several areas of Chennai. Residents are urged to avoid traveling on affected roads.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
 
+    <!-- Alert 2: Tamil Nadu Rainfall Warning -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: Tamil Nadu Rainfall Warning 🌧️</strong>
+      <p>Authorities have issued a heavy rainfall warning for the coastal areas of Tamil Nadu. Citizens are advised to stay indoors and avoid low-lying areas.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
 
-  <!-- Footer Section -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Flood Disaster Helpline. All rights reserved
+    <!-- Alert 3: River Overflow in Kanchipuram -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: River Overflow in Kanchipuram 🌊</strong>
+      <p>The Palar River has overflowed due to continuous rains, causing floods in Kanchipuram. Local authorities are conducting evacuation efforts.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
 
-  <!-- Testimonials Section with Carousel -->
+    <!-- Alert 4: Pondicherry Floods -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: Pondicherry Floods 💦</strong>
+      <p>Pondicherry is facing severe flooding as heavy rains continue to lash the region. Several areas are submerged, with rescue operations underway.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Alert 5: School Closures in Tamil Nadu -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: School Closures in Tamil Nadu 🏫</strong>
+      <p>Due to widespread floods, schools across Tamil Nadu have been closed until further notice. Parents are advised to ensure their children's safety.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Alert 6: Dam Overflow in Cuddalore -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: Dam Overflow in Cuddalore 🌊</strong>
+      <p>Veeranam Lake in Cuddalore has breached its banks, leading to widespread flooding in nearby towns. Authorities are evacuating residents from high-risk areas.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Alert 7: Power Outages in Trichy -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: Power Outages in Trichy ⚡</strong>
+      <p>Power outages have been reported in multiple areas of Trichy due to floodwaters damaging power lines. Emergency teams are working to restore services.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Alert 8: Major Traffic Disruptions in Madurai -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: Major Traffic Disruptions in Madurai 🚗</strong>
+      <p>Heavy rainfall has caused major traffic disruptions in Madurai. Several roads are flooded, and commuters are advised to seek alternate routes.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Alert 9: Emergency Relief Centers Set Up -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: Emergency Relief Centers Set Up 🏥</strong>
+      <p>The Tamil Nadu government has set up emergency relief centers in affected areas. Residents are urged to head to these centers for food and medical assistance.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Alert 10: Evacuation Orders in Villupuram -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Breaking News: Evacuation Orders in Villupuram 🚨</strong>
+      <p>Evacuation orders have been issued in Villupuram as floodwaters threaten to inundate residential areas. Citizens are urged to evacuate immediately.</p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
+  <!-- Testimonials Section -->
   <section id="testimonials" class="py-5">
     <div class="container">
       <h2 class="text-center mb-4">What People Say</h2>
-      <!-- Testimonial Carousel -->
-      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <p class="text-center">"This helpline saved my family during the floods. The response was immediate!"</p>
-            <footer class="text-center">Ravi Kumar, Coimbatore</footer>
-          </div>
-          <div class="carousel-item">
-            <p class="text-center">"Great service! Help arrived within minutes of requesting assistance."</p>
-            <footer class="text-center">Meena Sharma, Tiruppur</footer>
-          </div>
-          <div class="carousel-item">
-            <p class="text-center">"I was able to connect to emergency services quickly thanks to the helpline. Thank you!"</p>
-            <footer class="text-center">Anil Reddy, Madurai</footer>
-          </div>
-          <div class="carousel-item">
-            <p class="text-center">"The support team was outstanding. They ensured I was safe and in touch with authorities."</p>
-            <footer class="text-center">Pranav Nair, Kanyakumari</footer>
-          </div>
-          <div class="carousel-item">
-            <p class="text-center">"Fantastic service! The team guided me through the evacuation process seamlessly."</p>
-            <footer class="text-center">Suresh G, Virudhunagar</footer>
+      <div class="frame-box">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- First Testimonial -->
+            <div class="carousel-item active animate__animated animate__fadeIn">
+              <p class="text-center">"This helpline saved my family during the floods. The response was immediate!"</p>
+              <footer class="text-center">Ravi Kumar, Coimbatore</footer>
+            </div>
+            <!-- Second Testimonial -->
+            <div class="carousel-item animate__animated animate__fadeIn">
+              <p class="text-center">"Great service! Help arrived within minutes of requesting assistance."</p>
+              <footer class="text-center">Meena Sharma, Tiruppur</footer>
+            </div>
+            <!-- Third Testimonial -->
+            <div class="carousel-item animate__animated animate__fadeIn">
+              <p class="text-center">"I was able to connect to emergency services quickly thanks to the helpline. Thank you!"</p>
+              <footer class="text-center">Anil Reddy, Madurai</footer>
+            </div>
           </div>
         </div>
-        <!-- Carousel Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-5 text-center">
+  <section id="contact" class="py-5 text-center bg-light">
     <div class="container">
       <h2>Contact Us</h2>
       <p>Email: <a href="mailto:support@floodhelpline.com">support@floodhelpline.com</a></p>
       <p>Phone: +91-9876543210</p>
       <p>Address: Coimbatore, Tamil Nadu</p>
-      <form id="contactForm" class="mt-4">
-        <div class="mb-3">
-          <input type="text" class="form-control" id="contact-name" placeholder="Enter your name" required>
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" id="contact-email" placeholder="Enter your email" required>
-        </div>
-        <div class="mb-3">
-          <textarea class="form-control" id="contact-message" rows="3" placeholder="Enter your message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-light">Send Message</button>
-      </form>
     </div>
   </section>
 
@@ -431,13 +302,6 @@
     document.getElementById('helpRequestForm').addEventListener('submit', function(event) {
       event.preventDefault();
       alert('✅ Thank you for your request! Our team will contact you shortly.');
-      this.reset();
-    });
-
-    // Handle form submissions for "Contact Us"
-    document.getElementById('contactForm').addEventListener('submit', function(event) {
-      event.preventDefault();
-      alert('📩 Your message has been sent! We will get back to you soon.');
       this.reset();
     });
   </script>

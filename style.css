@@ -1,13 +1,12 @@
-/* Custom Styles - Green Theme */
+/* Custom Styles - Warm & Vibrant Theme */
 body {
   font-family: Arial, sans-serif;
-  background-color: #E8F5E9; /* Light Green Background for a calm effect */
   color: #333; /* Dark Gray for readability */
 }
 
 /* Navigation Bar */
 .navbar {
-  background-color: #2E7D32 !important; /* Deep Green for reliability */
+  background-color: #8B0000; /* Dark Red */
 }
 
 .navbar a {
@@ -15,19 +14,18 @@ body {
 }
 
 .navbar a:hover {
-  color: #FFD700 !important; /* Yellow hover effect */
+  color: #FFA500 !important; /* Bright Orange hover effect */
 }
 
 /* Hero Section */
 .hero-section {
-  background-color: #A5D6A7; /* Soft Green for a soothing look */
+  background-color: #FF4500; /* Deep Orange */
   padding: 50px 0;
 }
 
 /* Cards */
 .card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-left: 5px solid #8BC34A; /* Lime Green accent */
+  border-left: 5px solid #F5F5F5; /* Soft Gray accent */
   background-color: #FFFFFF;
 }
 
@@ -38,29 +36,106 @@ body {
 
 /* Buttons */
 .btn-primary {
-  background-color: #2E7D32 !important; /* Deep Green for action buttons */
-  border-color: #1B5E20;
+  background-color: #FFA500 !important; /* Bright Orange for action buttons */
+  border-color: #FF4500;
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #1B5E20 !important;
+  background-color: #8B0000 !important; /* Dark Red */
 }
 
 /* About Us Section */
 #about {
-<<<<<<< HEAD
-
-=======
-  background-color: #E0F2F1; /* Light Green */
->>>>>>> ab988066e8b524a4ace00e2bcf120ec8f9d60bc8
+  background-color: #4B0082; /* Deep Purple */
   padding: 50px 0;
 }
 
 /* Footer */
 footer {
-  background-color: #2E7D32; /* Deep Green for stability */
+  background-color: #4B0082; /* Deep Purple */
   color: white;
   padding: 15px;
   text-align: center;
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.btn-light:hover {
+  background-color: #e2e6ea;
+}
+
+/* Section Styles */
+.section {
+  padding: 40px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+/* Frame Box */
+.frame-box {
+  border: 2px solid #007bff;  /* Blue border */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #e9f5ff;  /* Light blue background */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Square Box for Services and Alerts */
+.square-box {
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #e9f5e9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.square-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials Carousel */
+.carousel-inner {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007bff;
+}
+
+/* Remove background color for carousel indicators */
+.carousel-indicators li {
+  background-color: transparent !important;
 }
